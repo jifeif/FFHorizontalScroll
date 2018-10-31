@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FFHorizontalScrollView/FFHorizontalScrollView.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    FFHorizontalScrollView *vi = [[FFHorizontalScrollView alloc] initWithFrame:CGRectMake(0, 100, 375, 30)];
+    vi.showInfo = @"这个是滚动展示的信息......";
+    [self.view addSubview:vi];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
