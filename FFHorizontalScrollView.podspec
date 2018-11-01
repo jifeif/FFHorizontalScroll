@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = "FFHorizontalScroll/FFHorizontalScrollView/**/*" 
-  # s.resources = "FFHorizontalScroll/FFHorizontalScrollView/Resources/**/*"
+  s.resource_bundles = "FFHorizontalScroll/*.png"
   s.frameworks = 'UIKit'
 
 end

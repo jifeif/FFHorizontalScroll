@@ -17,6 +17,7 @@
 		4042B1B121880EE1002A6C59 /* FFHorizontalScrollUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4042B1B021880EE1002A6C59 /* FFHorizontalScrollUITests.m */; };
 		40EE4759218ACB0C00EA7132 /* FFHorizontalScrollView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40EE4758218ACB0C00EA7132 /* FFHorizontalScrollView.bundle */; };
 		40EE475C218ACC0E00EA7132 /* libFFHorizontalScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40EE475B218ACC0E00EA7132 /* libFFHorizontalScrollView.a */; };
+		40EE475E218AD85300EA7132 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 40EE475D218AD85300EA7132 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		40EE4758218ACB0C00EA7132 /* FFHorizontalScrollView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FFHorizontalScrollView.bundle; sourceTree = "<group>"; };
 		40EE475A218ACC0500EA7132 /* FFHorizontalScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFHorizontalScrollView.h; sourceTree = "<group>"; };
 		40EE475B218ACC0E00EA7132 /* libFFHorizontalScrollView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFFHorizontalScrollView.a; sourceTree = "<group>"; };
+		40EE475D218AD85300EA7132 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				4042B18D21880EE0002A6C59 /* AppDelegate.m */,
 				4042B18F21880EE0002A6C59 /* ViewController.h */,
 				4042B19021880EE0002A6C59 /* ViewController.m */,
+				40EE475D218AD85300EA7132 /* 1.png */,
 				4042B19221880EE0002A6C59 /* Main.storyboard */,
 				4042B19521880EE1002A6C59 /* Assets.xcassets */,
 				4042B19721880EE1002A6C59 /* LaunchScreen.storyboard */,
@@ -272,6 +275,7 @@
 				40EE4759218ACB0C00EA7132 /* FFHorizontalScrollView.bundle in Resources */,
 				4042B19621880EE1002A6C59 /* Assets.xcassets in Resources */,
 				4042B19421880EE0002A6C59 /* Main.storyboard in Resources */,
+				40EE475E218AD85300EA7132 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
