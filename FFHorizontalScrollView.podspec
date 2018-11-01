@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
                        这是一个水平滚动的告知信息view，可以自定义文字的大小颜色，暂不支持点击事件。
                        DESC
   s.homepage         = "https://github.com/jifeif/FFHorizontalScroll"
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = 'MIT'
   s.author           = { "XXX" => "XXX@gmail.com" }
   s.source           = { :git => "https://github.com/jifeif/FFHorizontalScroll.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/NAME'
