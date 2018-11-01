@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "FFHorizontalScroll/FFHorizontalScrollView/*"
+  s.source_files  = "FFHorizontalScroll/FFHorizontalScrollView", "FFHorizontalScroll/FFHorizontalScrollView/*.h"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
+  s.resources = "FDHorizontalScroll/FDHorizontalScrollView/*.a", "FDHorizontalScroll/FDHorizontalScrollView/*.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -117,7 +117,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
+   s.framework  = 'UIKit'
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"

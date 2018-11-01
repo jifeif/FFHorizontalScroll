@@ -16,7 +16,7 @@
 		4042B1A621880EE1002A6C59 /* FFHorizontalScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4042B1A521880EE1002A6C59 /* FFHorizontalScrollTests.m */; };
 		4042B1B121880EE1002A6C59 /* FFHorizontalScrollUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4042B1B021880EE1002A6C59 /* FFHorizontalScrollUITests.m */; };
 		4042B1C221880F33002A6C59 /* FFHorizontalScrollView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4042B1C021880F33002A6C59 /* FFHorizontalScrollView.bundle */; };
-		4042B1C321880F33002A6C59 /* libFFHorizontalScrollView in Frameworks */ = {isa = PBXBuildFile; fileRef = 4042B1C121880F33002A6C59 /* libFFHorizontalScrollView */; };
+		4042B1C321880F33002A6C59 /* libFFHorizontalScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4042B1C121880F33002A6C59 /* libFFHorizontalScrollView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +55,7 @@
 		4042B1B221880EE1002A6C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4042B1BF21880F33002A6C59 /* FFHorizontalScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFHorizontalScrollView.h; sourceTree = "<group>"; };
 		4042B1C021880F33002A6C59 /* FFHorizontalScrollView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FFHorizontalScrollView.bundle; sourceTree = "<group>"; };
-		4042B1C121880F33002A6C59 /* libFFHorizontalScrollView */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFFHorizontalScrollView; sourceTree = "<group>"; };
+		4042B1C121880F33002A6C59 /* libFFHorizontalScrollView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFFHorizontalScrollView.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4042B1C321880F33002A6C59 /* libFFHorizontalScrollView in Frameworks */,
+				4042B1C321880F33002A6C59 /* libFFHorizontalScrollView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +144,7 @@
 			children = (
 				4042B1BF21880F33002A6C59 /* FFHorizontalScrollView.h */,
 				4042B1C021880F33002A6C59 /* FFHorizontalScrollView.bundle */,
-				4042B1C121880F33002A6C59 /* libFFHorizontalScrollView */,
+				4042B1C121880F33002A6C59 /* libFFHorizontalScrollView.a */,
 			);
 			path = FFHorizontalScrollView;
 			sourceTree = "<group>";
