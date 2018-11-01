@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = "FFHorizontalScrollView"
   s.version          = "0.0.1"
-  s.summary          = "随便写的东西"
+  s.summary          = "广告消息水平滚动"
   s.description      = <<-DESC
-                       测试.
+                       这是一个水平滚动的告知信息view，可以自定义文字的大小颜色，暂不支持点击事件。
                        DESC
-  s.homepage         = "https://github.com/Example/GofShakeAndEmail"
+  s.homepage         = "https://github.com/jifeif/FFHorizontalScroll"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "XXX" => "XXX@gmail.com" }
   s.source           = { :git => "https://github.com/jifeif/FFHorizontalScroll.git", :tag => s.version.to_s }
@@ -14,7 +14,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '9.0'
   s.requires_arc = true
 
-  s.source_files = "FFHorizontalScroll/FFHorizontalScrollView/**/*"
+  s.source_files = "FFHorizontalScroll/FFHorizontalScrollView/**/*" 
+  # s.resources = "FFHorizontalScroll/FFHorizontalScrollView/Resources/**/*"
   s.frameworks = 'UIKit'
 
 end

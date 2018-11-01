@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "FFHorizontalScrollView/FFHorizontalScrollView.h"
+#import "FFHorizontalScrollView.h"
 
 @interface ViewController ()
 
