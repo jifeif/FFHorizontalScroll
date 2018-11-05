@@ -104,7 +104,6 @@
 		4042B18021880EDF002A6C59 = {
 			isa = PBXGroup;
 			children = (
-				4042B1BE21880F33002A6C59 /* FFHorizontalScrollView */,
 				4042B18B21880EDF002A6C59 /* FFHorizontalScroll */,
 				4042B1A421880EE1002A6C59 /* FFHorizontalScrollTests */,
 				4042B1AF21880EE1002A6C59 /* FFHorizontalScrollUITests */,
@@ -125,6 +124,7 @@
 		4042B18B21880EDF002A6C59 /* FFHorizontalScroll */ = {
 			isa = PBXGroup;
 			children = (
+				4042B1BE21880F33002A6C59 /* FFHorizontalScrollView */,
 				4042B18C21880EDF002A6C59 /* AppDelegate.h */,
 				4042B18D21880EE0002A6C59 /* AppDelegate.m */,
 				4042B18F21880EE0002A6C59 /* ViewController.h */,
