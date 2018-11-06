@@ -15,11 +15,9 @@
 		4042B19C21880EE1002A6C59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4042B19B21880EE1002A6C59 /* main.m */; };
 		4042B1A621880EE1002A6C59 /* FFHorizontalScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4042B1A521880EE1002A6C59 /* FFHorizontalScrollTests.m */; };
 		4042B1B121880EE1002A6C59 /* FFHorizontalScrollUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4042B1B021880EE1002A6C59 /* FFHorizontalScrollUITests.m */; };
-		4068AC7C219178E800875E1C /* FFHorizontalScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4068AC75219178E800875E1C /* FFHorizontalScrollView.m */; };
-		4068AC7D219178E800875E1C /* FFHorizontalScrollViewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4068AC77219178E800875E1C /* FFHorizontalScrollViewCollectionViewCell.m */; };
-		4068AC7E219178E800875E1C /* trumpet@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4068AC79219178E800875E1C /* trumpet@3x.png */; };
-		4068AC7F219178E800875E1C /* trumpet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4068AC7A219178E800875E1C /* trumpet@2x.png */; };
-		4068AC80219178E800875E1C /* FFHorizontalScrollViewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4068AC7B219178E800875E1C /* FFHorizontalScrollViewCollectionViewCell.xib */; };
+		4068ACB22191952B00875E1C /* FFHorizontalScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4068ACAB2191952B00875E1C /* FFHorizontalScrollView.m */; };
+		4068ACB32191952B00875E1C /* FFHorizontalScrollViewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4068ACAD2191952B00875E1C /* FFHorizontalScrollViewCollectionViewCell.m */; };
+		4068ACB82191959300875E1C /* FFHorizontalScroll.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4068ACB72191959300875E1C /* FFHorizontalScroll.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,13 +54,11 @@
 		4042B1AC21880EE1002A6C59 /* FFHorizontalScrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFHorizontalScrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4042B1B021880EE1002A6C59 /* FFHorizontalScrollUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFHorizontalScrollUITests.m; sourceTree = "<group>"; };
 		4042B1B221880EE1002A6C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4068AC75219178E800875E1C /* FFHorizontalScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFHorizontalScrollView.m; sourceTree = "<group>"; };
-		4068AC76219178E800875E1C /* FFHorizontalScrollViewCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFHorizontalScrollViewCollectionViewCell.h; sourceTree = "<group>"; };
-		4068AC77219178E800875E1C /* FFHorizontalScrollViewCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFHorizontalScrollViewCollectionViewCell.m; sourceTree = "<group>"; };
-		4068AC78219178E800875E1C /* FFHorizontalScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFHorizontalScrollView.h; sourceTree = "<group>"; };
-		4068AC79219178E800875E1C /* trumpet@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trumpet@3x.png"; sourceTree = "<group>"; };
-		4068AC7A219178E800875E1C /* trumpet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trumpet@2x.png"; sourceTree = "<group>"; };
-		4068AC7B219178E800875E1C /* FFHorizontalScrollViewCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFHorizontalScrollViewCollectionViewCell.xib; sourceTree = "<group>"; };
+		4068ACAB2191952B00875E1C /* FFHorizontalScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFHorizontalScrollView.m; sourceTree = "<group>"; };
+		4068ACAC2191952B00875E1C /* FFHorizontalScrollViewCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFHorizontalScrollViewCollectionViewCell.h; sourceTree = "<group>"; };
+		4068ACAD2191952B00875E1C /* FFHorizontalScrollViewCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFHorizontalScrollViewCollectionViewCell.m; sourceTree = "<group>"; };
+		4068ACAE2191952B00875E1C /* FFHorizontalScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFHorizontalScrollView.h; sourceTree = "<group>"; };
+		4068ACB72191959300875E1C /* FFHorizontalScroll.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FFHorizontalScroll.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +109,7 @@
 		4042B18B21880EDF002A6C59 /* FFHorizontalScroll */ = {
 			isa = PBXGroup;
 			children = (
-				4068AC74219178E800875E1C /* Core */,
+				4068ACAA2191952B00875E1C /* Core */,
 				4042B18C21880EDF002A6C59 /* AppDelegate.h */,
 				4042B18D21880EE0002A6C59 /* AppDelegate.m */,
 				4042B18F21880EE0002A6C59 /* ViewController.h */,
@@ -145,16 +141,14 @@
 			path = FFHorizontalScrollUITests;
 			sourceTree = "<group>";
 		};
-		4068AC74219178E800875E1C /* Core */ = {
+		4068ACAA2191952B00875E1C /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				4068AC75219178E800875E1C /* FFHorizontalScrollView.m */,
-				4068AC76219178E800875E1C /* FFHorizontalScrollViewCollectionViewCell.h */,
-				4068AC77219178E800875E1C /* FFHorizontalScrollViewCollectionViewCell.m */,
-				4068AC78219178E800875E1C /* FFHorizontalScrollView.h */,
-				4068AC79219178E800875E1C /* trumpet@3x.png */,
-				4068AC7A219178E800875E1C /* trumpet@2x.png */,
-				4068AC7B219178E800875E1C /* FFHorizontalScrollViewCollectionViewCell.xib */,
+				4068ACB72191959300875E1C /* FFHorizontalScroll.bundle */,
+				4068ACAB2191952B00875E1C /* FFHorizontalScrollView.m */,
+				4068ACAC2191952B00875E1C /* FFHorizontalScrollViewCollectionViewCell.h */,
+				4068ACAD2191952B00875E1C /* FFHorizontalScrollViewCollectionViewCell.m */,
+				4068ACAE2191952B00875E1C /* FFHorizontalScrollView.h */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -262,11 +256,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4068AC80219178E800875E1C /* FFHorizontalScrollViewCollectionViewCell.xib in Resources */,
 				4042B19921880EE1002A6C59 /* LaunchScreen.storyboard in Resources */,
-				4068AC7E219178E800875E1C /* trumpet@3x.png in Resources */,
-				4068AC7F219178E800875E1C /* trumpet@2x.png in Resources */,
 				4042B19621880EE1002A6C59 /* Assets.xcassets in Resources */,
+				4068ACB82191959300875E1C /* FFHorizontalScroll.bundle in Resources */,
 				4042B19421880EE0002A6C59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,10 +285,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4042B19121880EE0002A6C59 /* ViewController.m in Sources */,
-				4068AC7D219178E800875E1C /* FFHorizontalScrollViewCollectionViewCell.m in Sources */,
+				4068ACB32191952B00875E1C /* FFHorizontalScrollViewCollectionViewCell.m in Sources */,
 				4042B19C21880EE1002A6C59 /* main.m in Sources */,
 				4042B18E21880EE0002A6C59 /* AppDelegate.m in Sources */,
-				4068AC7C219178E800875E1C /* FFHorizontalScrollView.m in Sources */,
+				4068ACB22191952B00875E1C /* FFHorizontalScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,6 +18,8 @@
 @property (nonatomic, strong) UICollectionView *aCollectionView;
 @property (nonatomic, strong) UIImageView      *aImageView;
 @property (nonatomic, strong) CADisplayLink    *displayLink;
+@property (nonatomic, strong) NSBundle         *needBundle;
+
 @end
 
 @implementation FFHorizontalScrollView
@@ -54,6 +56,7 @@
  初始化
  */
 - (void)FF_Initialization {
+    self.needBundle = [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"FFHorizontalScroll" ofType:@"bundle"]];
     self.isShowTrumput = YES;
     self.bgColor = [UIColor colorWithWhite:0 alpha:0.5];
     self.textColor = [UIColor whiteColor];
@@ -113,7 +116,7 @@
  */
 - (UIImage *)FF_AcquireNeedImage {
     NSString *imageName = [NSString stringWithFormat:@"%@@%@x", @"trumpet", @([UIScreen mainScreen].scale)];
-    NSString *path = [[NSBundle mainBundle] pathForResource:imageName ofType:@"png"];
+    NSString *path = [self.needBundle pathForResource:imageName ofType:@"png"];
     UIImage *aImage = [UIImage imageWithContentsOfFile:path];
     return aImage;
 }
@@ -161,7 +164,7 @@
         UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
         flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
         _aCollectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:flowLayout];
-        [_aCollectionView registerNib:[UINib nibWithNibName:@"FFHorizontalScrollViewCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:FFHorizontalScrollViewCollectionViewCell_Identity];
+        [_aCollectionView registerNib:[UINib nibWithNibName:@"FFHorizontalScrollViewCollectionViewCell" bundle:self.needBundle] forCellWithReuseIdentifier:FFHorizontalScrollViewCollectionViewCell_Identity];
         _aCollectionView.backgroundColor = [UIColor clearColor];
         _aCollectionView.delegate = self;
         _aCollectionView.dataSource = self;
