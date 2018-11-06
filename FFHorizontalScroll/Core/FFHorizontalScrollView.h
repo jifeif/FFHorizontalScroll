@@ -10,7 +10,26 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol FFHorizontalScrollViewDelegate <NSObject>
+
+@optional
+/// cell点击事件
+- (void)FF_CellClickAtIndexPath:(NSIndexPath *)indexPath;
+
+@end
+
 @interface FFHorizontalScrollView : UIView
+
+/**
+ delegate
+ */
+@property (nonatomic, weak ) id<FFHorizontalScrollViewDelegate> delegate;
+
+
+/**
+ 默认： 15 展示图标的话距离左侧的距离
+ */
+@property (nonatomic, assign) CGFloat  iconLeftDistance;
 
 /**
  展示的信息
@@ -38,6 +57,10 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, assign) CGFloat   fontSize;
 
+/**
+ 滚动速度： 默认 60/s .设定的刷新率是30，即speed = 1;
+ */
+@property (nonatomic, assign) CGFloat    speed;
 
 /**
  item间距: 默认的间距是40

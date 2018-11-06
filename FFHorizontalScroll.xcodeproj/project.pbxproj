@@ -15,8 +15,11 @@
 		4042B19C21880EE1002A6C59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4042B19B21880EE1002A6C59 /* main.m */; };
 		4042B1A621880EE1002A6C59 /* FFHorizontalScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4042B1A521880EE1002A6C59 /* FFHorizontalScrollTests.m */; };
 		4042B1B121880EE1002A6C59 /* FFHorizontalScrollUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4042B1B021880EE1002A6C59 /* FFHorizontalScrollUITests.m */; };
-		40EE4759218ACB0C00EA7132 /* FFHorizontalScrollView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40EE4758218ACB0C00EA7132 /* FFHorizontalScrollView.bundle */; };
-		40EE475C218ACC0E00EA7132 /* libFFHorizontalScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40EE475B218ACC0E00EA7132 /* libFFHorizontalScrollView.a */; };
+		4068AC7C219178E800875E1C /* FFHorizontalScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4068AC75219178E800875E1C /* FFHorizontalScrollView.m */; };
+		4068AC7D219178E800875E1C /* FFHorizontalScrollViewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4068AC77219178E800875E1C /* FFHorizontalScrollViewCollectionViewCell.m */; };
+		4068AC7E219178E800875E1C /* trumpet@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4068AC79219178E800875E1C /* trumpet@3x.png */; };
+		4068AC7F219178E800875E1C /* trumpet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4068AC7A219178E800875E1C /* trumpet@2x.png */; };
+		4068AC80219178E800875E1C /* FFHorizontalScrollViewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4068AC7B219178E800875E1C /* FFHorizontalScrollViewCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +56,13 @@
 		4042B1AC21880EE1002A6C59 /* FFHorizontalScrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFHorizontalScrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4042B1B021880EE1002A6C59 /* FFHorizontalScrollUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFHorizontalScrollUITests.m; sourceTree = "<group>"; };
 		4042B1B221880EE1002A6C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		40EE4758218ACB0C00EA7132 /* FFHorizontalScrollView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FFHorizontalScrollView.bundle; sourceTree = "<group>"; };
-		40EE475A218ACC0500EA7132 /* FFHorizontalScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFHorizontalScrollView.h; sourceTree = "<group>"; };
-		40EE475B218ACC0E00EA7132 /* libFFHorizontalScrollView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFFHorizontalScrollView.a; sourceTree = "<group>"; };
+		4068AC75219178E800875E1C /* FFHorizontalScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFHorizontalScrollView.m; sourceTree = "<group>"; };
+		4068AC76219178E800875E1C /* FFHorizontalScrollViewCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFHorizontalScrollViewCollectionViewCell.h; sourceTree = "<group>"; };
+		4068AC77219178E800875E1C /* FFHorizontalScrollViewCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFHorizontalScrollViewCollectionViewCell.m; sourceTree = "<group>"; };
+		4068AC78219178E800875E1C /* FFHorizontalScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFHorizontalScrollView.h; sourceTree = "<group>"; };
+		4068AC79219178E800875E1C /* trumpet@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trumpet@3x.png"; sourceTree = "<group>"; };
+		4068AC7A219178E800875E1C /* trumpet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trumpet@2x.png"; sourceTree = "<group>"; };
+		4068AC7B219178E800875E1C /* FFHorizontalScrollViewCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFHorizontalScrollViewCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40EE475C218ACC0E00EA7132 /* libFFHorizontalScrollView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,23 +90,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4021ECC4218AA9600001E468 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				40EE475A218ACC0500EA7132 /* FFHorizontalScrollView.h */,
-				40EE475B218ACC0E00EA7132 /* libFFHorizontalScrollView.a */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		4021ECC7218AA9600001E468 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				40EE4758218ACB0C00EA7132 /* FFHorizontalScrollView.bundle */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		4042B18021880EDF002A6C59 = {
 			isa = PBXGroup;
 			children = (
@@ -124,7 +113,7 @@
 		4042B18B21880EDF002A6C59 /* FFHorizontalScroll */ = {
 			isa = PBXGroup;
 			children = (
-				4042B1BE21880F33002A6C59 /* FFHorizontalScrollView */,
+				4068AC74219178E800875E1C /* Core */,
 				4042B18C21880EDF002A6C59 /* AppDelegate.h */,
 				4042B18D21880EE0002A6C59 /* AppDelegate.m */,
 				4042B18F21880EE0002A6C59 /* ViewController.h */,
@@ -156,13 +145,18 @@
 			path = FFHorizontalScrollUITests;
 			sourceTree = "<group>";
 		};
-		4042B1BE21880F33002A6C59 /* FFHorizontalScrollView */ = {
+		4068AC74219178E800875E1C /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				4021ECC4218AA9600001E468 /* Core */,
-				4021ECC7218AA9600001E468 /* Resources */,
+				4068AC75219178E800875E1C /* FFHorizontalScrollView.m */,
+				4068AC76219178E800875E1C /* FFHorizontalScrollViewCollectionViewCell.h */,
+				4068AC77219178E800875E1C /* FFHorizontalScrollViewCollectionViewCell.m */,
+				4068AC78219178E800875E1C /* FFHorizontalScrollView.h */,
+				4068AC79219178E800875E1C /* trumpet@3x.png */,
+				4068AC7A219178E800875E1C /* trumpet@2x.png */,
+				4068AC7B219178E800875E1C /* FFHorizontalScrollViewCollectionViewCell.xib */,
 			);
-			path = FFHorizontalScrollView;
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,8 +262,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4068AC80219178E800875E1C /* FFHorizontalScrollViewCollectionViewCell.xib in Resources */,
 				4042B19921880EE1002A6C59 /* LaunchScreen.storyboard in Resources */,
-				40EE4759218ACB0C00EA7132 /* FFHorizontalScrollView.bundle in Resources */,
+				4068AC7E219178E800875E1C /* trumpet@3x.png in Resources */,
+				4068AC7F219178E800875E1C /* trumpet@2x.png in Resources */,
 				4042B19621880EE1002A6C59 /* Assets.xcassets in Resources */,
 				4042B19421880EE0002A6C59 /* Main.storyboard in Resources */,
 			);
@@ -297,8 +293,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4042B19121880EE0002A6C59 /* ViewController.m in Sources */,
+				4068AC7D219178E800875E1C /* FFHorizontalScrollViewCollectionViewCell.m in Sources */,
 				4042B19C21880EE1002A6C59 /* main.m in Sources */,
 				4042B18E21880EE0002A6C59 /* AppDelegate.m in Sources */,
+				4068AC7C219178E800875E1C /* FFHorizontalScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +469,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 7D2K5M439L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FFHorizontalScroll/FFHorizontalScrollView",
+					"$(PROJECT_DIR)/FFHorizontalScroll",
+				);
 				INFOPLIST_FILE = FFHorizontalScroll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -495,6 +498,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 7D2K5M439L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FFHorizontalScroll/FFHorizontalScrollView",
+					"$(PROJECT_DIR)/FFHorizontalScroll",
+				);
 				INFOPLIST_FILE = FFHorizontalScroll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
