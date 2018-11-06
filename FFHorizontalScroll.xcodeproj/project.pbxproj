@@ -109,6 +109,7 @@
 		4042B18B21880EDF002A6C59 /* FFHorizontalScroll */ = {
 			isa = PBXGroup;
 			children = (
+				4068ACB72191959300875E1C /* FFHorizontalScroll.bundle */,
 				4068ACAA2191952B00875E1C /* Core */,
 				4042B18C21880EDF002A6C59 /* AppDelegate.h */,
 				4042B18D21880EE0002A6C59 /* AppDelegate.m */,
@@ -144,7 +145,6 @@
 		4068ACAA2191952B00875E1C /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				4068ACB72191959300875E1C /* FFHorizontalScroll.bundle */,
 				4068ACAB2191952B00875E1C /* FFHorizontalScrollView.m */,
 				4068ACAC2191952B00875E1C /* FFHorizontalScrollViewCollectionViewCell.h */,
 				4068ACAD2191952B00875E1C /* FFHorizontalScrollViewCollectionViewCell.m */,
