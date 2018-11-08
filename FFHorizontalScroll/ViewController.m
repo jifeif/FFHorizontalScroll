@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-#import <FFHorizontalScrollFramework/FFHorizontalScrollView.h>
+#import "FFHorizontalScrollView.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) FFHorizontalScrollView *vi;

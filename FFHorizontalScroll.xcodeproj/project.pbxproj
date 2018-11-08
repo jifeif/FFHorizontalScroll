@@ -15,8 +15,8 @@
 		4042B19C21880EE1002A6C59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4042B19B21880EE1002A6C59 /* main.m */; };
 		4042B1A621880EE1002A6C59 /* FFHorizontalScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4042B1A521880EE1002A6C59 /* FFHorizontalScrollTests.m */; };
 		4042B1B121880EE1002A6C59 /* FFHorizontalScrollUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4042B1B021880EE1002A6C59 /* FFHorizontalScrollUITests.m */; };
-		40DBDE542192D9CF00B355FA /* FFHorizontalScroll.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40DBDE522192D9CF00B355FA /* FFHorizontalScroll.bundle */; };
-		40DBDE552192D9CF00B355FA /* FFHorizontalScrollFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40DBDE532192D9CF00B355FA /* FFHorizontalScrollFramework.framework */; };
+		40F867D221943004005BB098 /* FFHorizontalScroll.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40F867CC21943004005BB098 /* FFHorizontalScroll.bundle */; };
+		40F867D321943004005BB098 /* libFFHorizontalScroll.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F867D121943004005BB098 /* libFFHorizontalScroll.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +53,9 @@
 		4042B1AC21880EE1002A6C59 /* FFHorizontalScrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFHorizontalScrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4042B1B021880EE1002A6C59 /* FFHorizontalScrollUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFHorizontalScrollUITests.m; sourceTree = "<group>"; };
 		4042B1B221880EE1002A6C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		40DBDE522192D9CF00B355FA /* FFHorizontalScroll.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FFHorizontalScroll.bundle; sourceTree = "<group>"; };
-		40DBDE532192D9CF00B355FA /* FFHorizontalScrollFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FFHorizontalScrollFramework.framework; sourceTree = "<group>"; };
+		40F867CC21943004005BB098 /* FFHorizontalScroll.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FFHorizontalScroll.bundle; sourceTree = "<group>"; };
+		40F867D121943004005BB098 /* libFFHorizontalScroll.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFFHorizontalScroll.a; sourceTree = "<group>"; };
+		40F867D621943C4C005BB098 /* FFHorizontalScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFHorizontalScrollView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40DBDE552192D9CF00B355FA /* FFHorizontalScrollFramework.framework in Frameworks */,
+				40F867D321943004005BB098 /* libFFHorizontalScroll.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +107,7 @@
 		4042B18B21880EDF002A6C59 /* FFHorizontalScroll */ = {
 			isa = PBXGroup;
 			children = (
-				40DBDE512192D9CF00B355FA /* Framework */,
+				40F867CB21943004005BB098 /* need */,
 				4042B18C21880EDF002A6C59 /* AppDelegate.h */,
 				4042B18D21880EE0002A6C59 /* AppDelegate.m */,
 				4042B18F21880EE0002A6C59 /* ViewController.h */,
@@ -138,13 +139,22 @@
 			path = FFHorizontalScrollUITests;
 			sourceTree = "<group>";
 		};
-		40DBDE512192D9CF00B355FA /* Framework */ = {
+		40F867CB21943004005BB098 /* need */ = {
 			isa = PBXGroup;
 			children = (
-				40DBDE522192D9CF00B355FA /* FFHorizontalScroll.bundle */,
-				40DBDE532192D9CF00B355FA /* FFHorizontalScrollFramework.framework */,
+				40F867CC21943004005BB098 /* FFHorizontalScroll.bundle */,
+				40F867CD21943004005BB098 /* Static */,
 			);
-			path = Framework;
+			path = need;
+			sourceTree = "<group>";
+		};
+		40F867CD21943004005BB098 /* Static */ = {
+			isa = PBXGroup;
+			children = (
+				40F867D621943C4C005BB098 /* FFHorizontalScrollView.h */,
+				40F867D121943004005BB098 /* libFFHorizontalScroll.a */,
+			);
+			path = Static;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,7 +262,7 @@
 			files = (
 				4042B19921880EE1002A6C59 /* LaunchScreen.storyboard in Resources */,
 				4042B19621880EE1002A6C59 /* Assets.xcassets in Resources */,
-				40DBDE542192D9CF00B355FA /* FFHorizontalScroll.bundle in Resources */,
+				40F867D221943004005BB098 /* FFHorizontalScroll.bundle in Resources */,
 				4042B19421880EE0002A6C59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +479,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/FFHorizontalScroll/FFHorizontalScrollView",
 					"$(PROJECT_DIR)/FFHorizontalScroll/FFHorizontalScrollView/Core",
+					"$(PROJECT_DIR)/FFHorizontalScroll/need",
+					"$(PROJECT_DIR)/FFHorizontalScroll/need/Static",
 				);
 				OTHER_LDFLAGS = "-Objc";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Anyike.51WaywardShop;
@@ -501,6 +513,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/FFHorizontalScroll/FFHorizontalScrollView",
 					"$(PROJECT_DIR)/FFHorizontalScroll/FFHorizontalScrollView/Core",
+					"$(PROJECT_DIR)/FFHorizontalScroll/need",
+					"$(PROJECT_DIR)/FFHorizontalScroll/need/Static",
 				);
 				OTHER_LDFLAGS = "-Objc";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Anyike.51WaywardShop;
