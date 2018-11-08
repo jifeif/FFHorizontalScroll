@@ -19,6 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
 //    FFView *vi = [[FFView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
 //    [self.view addSubview:vi];
     self.vi = [[FFHorizontalScrollView alloc] initWithFrame:CGRectMake(0, 100, 375, 30)];
