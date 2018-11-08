@@ -1,0 +1,6 @@
+framework module FFHorizontalScrollFramework {
+  umbrella header "FFHorizontalScrollFramework.h"
+
+  export *
+  module * { export * }
+}

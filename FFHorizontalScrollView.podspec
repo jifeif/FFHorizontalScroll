@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = "FFHorizontalScrollView"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "广告消息水平滚动"
   s.description      = <<-DESC
-                       这是一个水平滚动的告知信息view，可以自定义文字的大小颜色，暂不支持点击事件。
+                       这是一个水平滚动的告知信息view，可以自定义文字的大小颜色，暂不支持点击事件。使用framework生成。
                        DESC
   s.homepage         = "https://github.com/jifeif/FFHorizontalScroll"
   s.license          = 'MIT'
@@ -14,8 +14,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '9.0'
   s.requires_arc = true
 
-  s.source_files = "FFHorizontalScroll/Core/*" 
-  s.resources = "FFHorizontalScroll/FFHorizontalScroll.bundle"
+  s.source_files = "FFHorizontalScroll/Framework/FFHorizontalScrollFramework.framework/**/*" 
+  s.resources = "FFHorizontalScroll/Framework/FFHorizontalScroll.bundle"
   s.frameworks = 'UIKit'
 
 end
