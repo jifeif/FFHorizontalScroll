@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		401A964021952D7F001877E8 /* libFFHorizontalScroll.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 401A963F21952D7F001877E8 /* libFFHorizontalScroll.a */; };
 		4042B18E21880EE0002A6C59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4042B18D21880EE0002A6C59 /* AppDelegate.m */; };
 		4042B19121880EE0002A6C59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4042B19021880EE0002A6C59 /* ViewController.m */; };
 		4042B19421880EE0002A6C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4042B19221880EE0002A6C59 /* Main.storyboard */; };
@@ -16,7 +17,6 @@
 		4042B1A621880EE1002A6C59 /* FFHorizontalScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4042B1A521880EE1002A6C59 /* FFHorizontalScrollTests.m */; };
 		4042B1B121880EE1002A6C59 /* FFHorizontalScrollUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4042B1B021880EE1002A6C59 /* FFHorizontalScrollUITests.m */; };
 		40F867D221943004005BB098 /* FFHorizontalScroll.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40F867CC21943004005BB098 /* FFHorizontalScroll.bundle */; };
-		40F867D321943004005BB098 /* libFFHorizontalScroll.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F867D121943004005BB098 /* libFFHorizontalScroll.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		401A963E21952D7F001877E8 /* FFHorizontalScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFHorizontalScrollView.h; sourceTree = "<group>"; };
+		401A963F21952D7F001877E8 /* libFFHorizontalScroll.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFFHorizontalScroll.a; sourceTree = "<group>"; };
 		4042B18921880EDF002A6C59 /* FFHorizontalScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFHorizontalScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4042B18C21880EDF002A6C59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4042B18D21880EE0002A6C59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,8 +56,6 @@
 		4042B1B021880EE1002A6C59 /* FFHorizontalScrollUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFHorizontalScrollUITests.m; sourceTree = "<group>"; };
 		4042B1B221880EE1002A6C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40F867CC21943004005BB098 /* FFHorizontalScroll.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FFHorizontalScroll.bundle; sourceTree = "<group>"; };
-		40F867D121943004005BB098 /* libFFHorizontalScroll.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFFHorizontalScroll.a; sourceTree = "<group>"; };
-		40F867D621943C4C005BB098 /* FFHorizontalScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFHorizontalScrollView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40F867D321943004005BB098 /* libFFHorizontalScroll.a in Frameworks */,
+				401A964021952D7F001877E8 /* libFFHorizontalScroll.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		401A963D21952D7F001877E8 /* Static */ = {
+			isa = PBXGroup;
+			children = (
+				401A963E21952D7F001877E8 /* FFHorizontalScrollView.h */,
+				401A963F21952D7F001877E8 /* libFFHorizontalScroll.a */,
+			);
+			path = Static;
+			sourceTree = "<group>";
+		};
 		4042B18021880EDF002A6C59 = {
 			isa = PBXGroup;
 			children = (
@@ -142,19 +151,10 @@
 		40F867CB21943004005BB098 /* need */ = {
 			isa = PBXGroup;
 			children = (
+				401A963D21952D7F001877E8 /* Static */,
 				40F867CC21943004005BB098 /* FFHorizontalScroll.bundle */,
-				40F867CD21943004005BB098 /* Static */,
 			);
 			path = need;
-			sourceTree = "<group>";
-		};
-		40F867CD21943004005BB098 /* Static */ = {
-			isa = PBXGroup;
-			children = (
-				40F867D621943C4C005BB098 /* FFHorizontalScrollView.h */,
-				40F867D121943004005BB098 /* libFFHorizontalScroll.a */,
-			);
-			path = Static;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
