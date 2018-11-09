@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		401A964021952D7F001877E8 /* libFFHorizontalScroll.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 401A963F21952D7F001877E8 /* libFFHorizontalScroll.a */; };
+		401A9648219536C0001877E8 /* libFFHorizontalScroll.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 401A9647219536C0001877E8 /* libFFHorizontalScroll.a */; };
 		4042B18E21880EE0002A6C59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4042B18D21880EE0002A6C59 /* AppDelegate.m */; };
 		4042B19121880EE0002A6C59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4042B19021880EE0002A6C59 /* ViewController.m */; };
 		4042B19421880EE0002A6C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4042B19221880EE0002A6C59 /* Main.storyboard */; };
@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		401A963E21952D7F001877E8 /* FFHorizontalScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFHorizontalScrollView.h; sourceTree = "<group>"; };
-		401A963F21952D7F001877E8 /* libFFHorizontalScroll.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFFHorizontalScroll.a; sourceTree = "<group>"; };
+		401A9646219536C0001877E8 /* FFHorizontalScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFHorizontalScrollView.h; sourceTree = "<group>"; };
+		401A9647219536C0001877E8 /* libFFHorizontalScroll.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFFHorizontalScroll.a; sourceTree = "<group>"; };
 		4042B18921880EDF002A6C59 /* FFHorizontalScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFHorizontalScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4042B18C21880EDF002A6C59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4042B18D21880EE0002A6C59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				401A964021952D7F001877E8 /* libFFHorizontalScroll.a in Frameworks */,
+				401A9648219536C0001877E8 /* libFFHorizontalScroll.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,11 +84,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		401A963D21952D7F001877E8 /* Static */ = {
+		401A964221953678001877E8 /* Static */ = {
 			isa = PBXGroup;
 			children = (
-				401A963E21952D7F001877E8 /* FFHorizontalScrollView.h */,
-				401A963F21952D7F001877E8 /* libFFHorizontalScroll.a */,
+				401A9646219536C0001877E8 /* FFHorizontalScrollView.h */,
+				401A9647219536C0001877E8 /* libFFHorizontalScroll.a */,
 			);
 			path = Static;
 			sourceTree = "<group>";
@@ -151,7 +151,7 @@
 		40F867CB21943004005BB098 /* need */ = {
 			isa = PBXGroup;
 			children = (
-				401A963D21952D7F001877E8 /* Static */,
+				401A964221953678001877E8 /* Static */,
 				40F867CC21943004005BB098 /* FFHorizontalScroll.bundle */,
 			);
 			path = need;
